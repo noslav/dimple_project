@@ -7,10 +7,15 @@
     <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
     <link href="style.css" rel="stylesheet" />
   </head>
-
+<!--
+Here we use the concept of a separated file structure by having the stylesheet, the html, the data  
+and the javascript file in separate files making it easier to change things around when we need it//-->
 <body>
 <h2>
-    
+<!--
+This is the main body of the html file, it contains the SVG elements defined in a .js file + it contains the captions
+and it also contains 
+//-->    
     <span>Titanic Passenger Data Exploration</span>
    </h2>
 
@@ -22,7 +27,9 @@
     There were far too few lifeboats on board, and hardly any were filled to capacity. As a result roughly 700 of the 2,224 passengers survived the wreck. They were picked up by the Carpathia, a nearby ship. In this data set we try to ask some questions.
     </p>
   </div>
-
+<!--
+This section now asks a few questions to guide the eyes of the visitors of the page over the visualizations.
+//-->
   <div align="center">
     <p>So...</p>
     <p>1. What demographics made it possible for the passengers to survive?</p>
@@ -31,10 +38,12 @@
 
   </div>
 
-
+<!--
+This sections contains the visualization themselves divived in three sections.
+//-->
   <div align="center">
     <div id="img1"></div>
-    <p>Females have almost 2X the survival rates compared to men even though there are ~ 2X men on the ship</p>
+    <p>40% of the people (of total) survived the disaster, 70% of the women and only 30% of the men survived.</p>
   </div>
 
   <div  align="center">
@@ -44,11 +53,11 @@
 
   <div  align="center">
     <div id="img3"></div>
-    <p>People in the higher class have 2X chances of survival compared to lower classes. Though middle class seem to show not much of a bias</p>
+    <p>People in the higher class have ~2X chances of survival compared to lower classes.</p>
   </div>
-
-
-  
+<!--
+Finally this sections contains the conclusions derived from viewing the visualizations and interpreting it from the data.
+//-->
   <div class="Conclusions">
     <p>1. We were able to get qualitative understanding of the people who survived the disaster, It is pretty clear that being a young woman in the upper class having paid more have the highest rates of survival.</p>
     <p>2. We were also able to get quantitive values of the people who survived the disaster, mainly women survived more often and by significant margin. 197 of the 261 women in the data set survived, that's a survival chance of 75% when compared to a survival chance of 20.52% for men.</p>
@@ -56,7 +65,9 @@
     </p>
 
   </div>
-  
+<!--
+leading to the script file.
+//-->
   <script src="Main.js"></script>
 </body>
 
