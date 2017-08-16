@@ -82,10 +82,13 @@ of actual sex ratio and then the survivor one separated from it.
 
 > Include choices about design and why I made them.
 
-
 #### #8
 
-> Changes were made to the vis 1 to reflect survival percentage
+> Changes were made to the vis 1 to reflect survival percentage.
+
+#### #9
+
+> Changes were made to the vis 3 to reflect survival rates of different classes of passengers.
 
 ### Post Feedback: (for index.html)
 Certain changes are made:
@@ -95,9 +98,9 @@ Certain changes are made:
 3. A summary at the end was added which summarized the findings.
 4. A new plot which explored the class chances of survival was added.
 5. Plot on Men Vs Women changed to reflect first a overall demographic followed 
-by survival with a passenger percentage
+by survival with a passenger percentage. 
 6. Plot on High Vs Low class changed to reflect first an overall representation of
-class from total then a passenger percentage that survived from this.
+class from total then a survival percentage that survived from this given class.
 
 
 
