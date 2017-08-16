@@ -83,6 +83,10 @@ of actual sex ratio and then the survivor one separated from it.
 > Include choices about design and why I made them.
 
 
+#### #8
+
+> Changes were made to the vis 1 to reflect survival percentage
+
 ### Post Feedback: (for index.html)
 Certain changes are made:
 

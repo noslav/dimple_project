@@ -1,7 +1,7 @@
-Class,Survived,Passenger Percentage
-1,Died,8.96
-1,Survived,17.08
-2,Died,13.44
-2,Survived,11.62
-3,Died,37.81
-3,Survived,11.90
+Class,State,Survival Percentage
+1,Died,35.0
+1,Survived,65.0
+2,Died,52.0
+2,Survived,48.0
+3,Died,76.0
+3,Survived,24.0
